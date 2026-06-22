@@ -51,3 +51,6 @@ with open(log_file_path, "r") as file:
                 
 print("_" * 50)
 print(f"[*] Analysis Complete. Total failed attempts: {failed_attempts}")
+
+
+<img width="1088" height="308" alt="Logs" src="https://github.com/user-attachments/assets/28d57e47-4644-4b19-9f57-9075773e32da" />

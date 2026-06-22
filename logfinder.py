@@ -1,9 +1,3 @@
-# A simple SOC Log parser& Automation script
-
-# Description: This script is a basic SOC automation tool that scans log files for failed login attempts, unauthorized users, and access to restricted assets. 
-# It uses simple string checks to identify potential security incidents and prints alerts accordingly.
-# The script also keeps count of failed login attempts and provides a summary at the end of the analysis.
-
 log_file_path = "/Users/dwellz/Documents/server_access.log"
 
 print("[*] Scanning log files sytandby....")
@@ -49,5 +43,3 @@ with open(log_file_path, "r") as file:
                 
 print("_" * 50)
 print(f"[*] Analysis Complete. Total failed attempts: {failed_attempts}")
-
-<img width="1088" height="308" alt="Logs" src="https://github.com/user-attachments/assets/28d57e47-4644-4b19-9f57-9075773e32da" />
